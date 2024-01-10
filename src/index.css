@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #ecf5ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  padding-top: 30px;
+}
+
+.image {
+  display: flex;
+  margin-top: 30px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.s1 {
+  background: #d75757;
+}
+
+.s2 {
+  background-color: #8cdf8e;
+}
+
+.s3 {
+  background-color: #ff8832;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  margin: 30px auto;
+  max-height: 40%;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 100px rgb(97, 95, 95);
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.hp {
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  padding: 5px 10px;
+  background: #d6d6d6;
+  border-radius: 10px;
+}
+
+.type {
+  padding: 5px 15px;
+  background: #ff8832;
+  color: white;
+  border-radius: 30px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.info_p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: normal;
+  color: #8a8a8a;
+}
+
+.info_p span {
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 40px;
+  background: black;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: black;
+  background: transparent;
+}
